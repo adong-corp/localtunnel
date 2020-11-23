@@ -9,4 +9,4 @@ COPY . .
 
 RUN cd /app/ && npm install -g
 
-ENTRYPOINT ["lt"]
+CMD ["lt"]
